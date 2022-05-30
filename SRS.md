@@ -19,16 +19,18 @@ Table of Contents
 
   
   ### 1.1 Product Purpose
-The purpose of this document is to present a detailed description of the Color Format Translator. It will explain the purposes and features of the translator, the interface of the translator, what the translater and it's accompanying systems will do and how the system will react to the user's input. This document is intended for both stakeholders and the developers of the translator.
-
+The purpose of this document is to present a detailed description of the Color Format Translator. It will explain the purposes and features of the translator, the interface of the translator, what the translater and its accompanying systems will do and how the system will react to the user's input. This document is intended for both stakeholders and the developers of the translator.
 
 ### 1.2 Product Scope
-This piece of software will be a Color Format Translator specifically designed with graphics programmers in mind, however other parties, such as web developers, may find it to be useful too.
+This piece of software will be a Color Format Translator specifically designed with graphics programmers in mind, however other parties, such as web developers, may find it to be useful too. The application will be designed to maximaze the user's productivity by making use of shortcuts and on-demand color translation. The application will make heavy use of modern standards & will be built with extensibility in mind. 
 
 ### 1.3 Definitions, Acronyms and Abbreviations
+| Term | Definition    |
+| ---- | ------- |
+| Software Requirements Specification  |  A document that completely describes all of the functions of a proposed system and the constraints under which it must operate. For example, this document.       |
+|      |         |
 
 ### 1.4 References
-List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.
 
 ### 1.5 Document Overview
-Describe what the rest of the document contains and how it is organized.
+The next chapter, the Product overview section, of this document gives an overview of the functionality of the product. It describes the informal requirements and is used to establish a context for the technical requirements specification in the next chapter. The third chapter, Requirement specification section, of this document is written primarily for developers and describes in technical terms the details of the functionality of this product. Both of these sections of the document descibe the same software product in its entirety, but are intended for different audienced and thus use different languages and terms.
