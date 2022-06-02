@@ -54,6 +54,7 @@ The purpose of this document is to present a detailed description of a Color Pic
   ### 1.3 Target Audience
 This document is intended for both stakeholders and the developers of the application.
   ### 1.4 Additional Information
+The project is inspired by the Microsoft PowerToys color picker. 
   ### 1.5 Contacts
 tupy.si.2019@skola.ssps.cz
 
