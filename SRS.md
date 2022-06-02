@@ -51,6 +51,7 @@ The purpose of this document is to present a detailed description of a Color Pic
 | Term | Definition    |
 | ---- | ------- |
 | Software Requirements Specification  |  A document that completely describes all of the functions of a proposed system and the constraints under which it must operate. For example, this document.       |
+| <kbd>Key</kbd> | A keyboard key declaration. |
   ### 1.3 Target Audience
 This document is intended for both stakeholders and the developers of the application.
   ### 1.4 Additional Information
@@ -59,10 +60,10 @@ The project is inspired by the Microsoft PowerToys color picker.
 tupy.si.2019@skola.ssps.cz
 
   ### 1.6 References
-Microsfot PowerToys *Microsoft* https://docs.microsoft.com/en-us/windows/powertoys/color-picker December 3, 2019
-
-
-
+* PowerToys *Microsoft* https://docs.microsoft.com/en-us/windows/powertoys/color-picker December 3, 2019   
+* WPF *Microsoft* https://docs.microsoft.com/en-us/dotnet/desktop/wpf/?view=netdesktop-6.0 November 21, 2006
+* Windows *Microsoft* https://www.microsoft.com/en-us/windows/ November 20, 1985    
+* user32 *Microsoft* https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list
 ## 2. Product Overview
   ### 2.1 Product Perspective
 This piece of software will be a Color Picker specifically designed with graphics programmers in mind, however other parties, such as web developers, may find it to be useful aswell. The application will be designed to maximize the user's productivity by making use of shortcuts and on-demand color picking. The application will make heavy use of modern standards and will be built with extensibility in mind. 
