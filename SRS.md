@@ -74,7 +74,7 @@ As stated before, the application is made specifically for graphics programmers 
   ### 2.4 Product Environment
 The software will run on any version of Windows released after (and including) Windows 8.1 - for more information see WPF compatibility statistics.
   ### 2.5 User Environment
-The application will run as a lightweight background process and listen for the user activating a specific shortcut to activate the color picker. Upon activation the application will immediately start and provide the user with an intuitive mouse color picker. After the user hovers over the desired pixel, he can simply click and the hovered pixel's color will be copied to the clipboard and the application will go back into a dormant state.
+The application will run as a lightweight background process and listen for the user activating a specific shortcut to activate the color picker. Upon activation the application will immediately start and provide the user with an intuitive mouse color picker. After the user hovers over the desired pixel, he can simply click and the hovered pixel's color will be copied to the clipboard and the application will go back into its dormant state.
   ### 2.6 Limitations and Implementation Details
 The application itself will make heavy use of the user32 DLL for global key and mouse hooks, getting the global mouse position and pixel color and, as such, is only limited by the capabilities of this API.
   ### 2.7 Assumptions and Dependencies
@@ -91,7 +91,7 @@ The application will interact with the user32 Windows API and the WPF interace.
 ## 4. System properties
   ### 4.1 Color Picking
   #### 4.1.1 Description and Importance
-This feature is of vital importance, it is, in essence, the core of the application. This property enables the user to hover a pixel on the screen and convert it to the selected color format and afterwards copy it to the clipboard.
+This feature is of vital importance since it is, in essence, the core of the application. This property enables the user to hover a pixel on the screen and convert it to the selected color format and afterwards copy it to the clipboard.
   #### 4.1.2 Inputs and Outputs
 The mouse position, keyboard hook, and display reference will be supplied, and, as a result, the color can be sampled. The sampled color will then go through a color formatter and be copied to the clipboard - the final output.
   #### 4.1.3 Function Specification
@@ -108,7 +108,7 @@ The window has to behave in accordance with the current application state and fo
   ### 5.1 Performance
 The application should use minimal system resources - especially in its inactive state. In its active state, the resource usage should also be minimal, however, due to the window being repositioned constantly and being redrawn due to the content updating, this may be difficult to achieve.
   ### 5.2 Security
-The application currently has no security concerns since it uses native API's, WPF, and does not store nor access any potentially risky data.
+The application, in its current state, has no security risks{concerns since it onlz uses native API's, the WPF, and does not store nor access any potentially risky/vulnerable data.
   ### 5.3 Reliability
 The application has to work reliably without being a hassle to work with, it has to copy the hovered color accurately and should copy it to the clipboard every time without issue.
   ### 5.4 Project Documentation
