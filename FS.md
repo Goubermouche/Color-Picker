@@ -37,12 +37,15 @@ Table of Contents
   ### 1.3 Target Audience
 This document is intended mainly for testers, developers, the marketing department, and other parties that may be involved. 
   ### 1.4 References
-* Software Requirement Specification *Šimon Tupý* https://github.com/Goubermouche/Color-Picker/blob/main/SRS.md
-
+* Software Requirement Specification *Šimon Tupý* https://github.com/Goubermouche/Color-Picker/blob/main/SRS.md    
+* PowerToys *Microsoft* https://docs.microsoft.com/en-us/windows/powertoys/color-picker December 3, 2019   
 ## 2. Scenarios
   ### 2.1 Usecases
+The main use case of the product is fast color picking of colors in various formats from the user's display. This feature may be, for example, used in software development for faster prototyping. 
   ### 2.2 Personas
+The products target audience mainly consists of programmers and other software developers (ie. graphics programmers, web developers, etc.), however the product offers utility to other groups aswell.
   ### 2.3 Details, Motivation and Live Examples
+ This project was inspired by the PowerToys which already provides a native color picker for windows, this color picker, however, offers limited control over color formats while active (the user can only switch them after opening the complimentary PowerToys application), which can get tiresome after having to switch between color formats more often.
   ### 2.4 Product Scope
   ### 2.5 Unimportant Functions and Properties
 
