@@ -28,9 +28,16 @@ Table of Contents
 
 ## 1. Introduction  
   ### 1.1 Document Purpose
+  The purpose of this document is to present a description of the functions and interfaces of the application. Furthermore it will introduce commonly used concepts, interfaces and usecases, including a basic overview of the application's structure.
   ### 1.2 Definitions, Acronyms and Abbreviations
+| Term | Definition    |
+| ---- | ------- |
+| Software Requirements Specification  |  A document that completely describes all of the functions of a proposed system and the constraints under which it must operate. For example, this document.       |
+| <kbd>Key</kbd> | A keyboard key declaration. |
   ### 1.3 Target Audience
+This document is intended mainly for testers, developers, the marketing department, and other parties that may be involved. 
   ### 1.4 References
+* Software Requirement Specification *Šimon Tupý* https://github.com/Goubermouche/Color-Picker/blob/main/SRS.md
 
 ## 2. Scenarios
   ### 2.1 Usecases
