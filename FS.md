@@ -45,8 +45,9 @@ The main use case of the product is fast color picking of colors in various form
   ### 2.2 Personas
 The products target audience mainly consists of programmers and other software developers (ie. graphics programmers, web developers, etc.), however the product offers utility to other groups aswell.
   ### 2.3 Details, Motivation and Live Examples
- This project was inspired by the PowerToys which already provides a native color picker for windows, this color picker, however, offers limited control over color formats while active (the user can only switch them after opening the complimentary PowerToys application), which can get tiresome after having to switch between color formats more often.
+ This project was inspired by the PowerToys which already provides a native color picker for windows, this color picker, however, offers limited control over color formats while active (the user can only switch them after opening the complimentary PowerToys application), which can get tiresome after having to switch between color formats more often. This application aims to fix this issue by using additional global shortcuts that give the user the ability to switch color formats on the fly.
   ### 2.4 Product Scope
+  
   ### 2.5 Unimportant Functions and Properties
 
 ## 3. Architecture Overview
