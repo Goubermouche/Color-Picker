@@ -9,7 +9,7 @@ May 30, 2022
 Table of Contents
 ================
 * 1 [Introduction](#1-introduction)
-   * 1.1 [Product Purpose](#11-product-purpose)
+   * 1.1 [Document Purpose](#11-document-purpose)
    * 1.2 [Definitions, Acronyms and Abbreviations](#12-definitions-acronyms-and-abbreviations)
    * 1.3 [Target Audience](#13-target-audience)
    * 1.4 [Additional Information](#14-additional-information)
@@ -45,7 +45,7 @@ Table of Contents
 
 
 ## 1. Introduction  
-  ### 1.1 Product Purpose
+  ### 1.1 Document Purpose
 The purpose of this document is to present a detailed description of a Color Picker application. It will explain the purposes and features of the Color Picker, its interface, and what the application and its accompanying systems will do and how the system will react to the user's input.
   ### 1.2 Definitions, Acronyms and Abbreviations
 | Term | Definition    |
