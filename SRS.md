@@ -46,7 +46,7 @@ Table of Contents
 
 ## 1. Introduction  
   ### 1.1 Product Purpose
-The purpose of this document is to present a detailed description of a Color Picker application. It will explain the purposes and features of the Color Picker, and its interface, what the application and its accompanying systems will do and how the system will react to the user's input.
+The purpose of this document is to present a detailed description of a Color Picker application. It will explain the purposes and features of the Color Picker, its interface, and what the application and its accompanying systems will do and how the system will react to the user's input.
   ### 1.2 Definitions, Acronyms and Abbreviations
 | Term | Definition    |
 | ---- | ------- |
@@ -58,7 +58,6 @@ This document is intended for both stakeholders and the developers of the applic
 The project is inspired by the Microsoft PowerToys color picker. 
   ### 1.5 Contacts
 tupy.si.2019@skola.ssps.cz
-
   ### 1.6 References
 * PowerToys *Microsoft* https://docs.microsoft.com/en-us/windows/powertoys/color-picker December 3, 2019   
 * WPF *Microsoft* https://docs.microsoft.com/en-us/dotnet/desktop/wpf/?view=netdesktop-6.0 November 21, 2006
@@ -78,20 +77,20 @@ The application will run as a lightweight background process and listen for the 
   ### 2.6 Limitations and Implementation Details
 The application itself will make heavy use of the user32 DLL for global key and mouse hooks, getting the global mouse position and pixel color and, as such, is only limited by the capabilities of this API.
   ### 2.7 Assumptions and Dependencies
-It is assumed that the target user has at least some basic knowledge of programming. Furthermore it is assumed that the application will be run on a machine running the Windows operating system in accordance with [section 2.4](#24-product-environment) of this document.
+It is assumed that the target user has at least some basic knowledge of programming. Furthermore, it is assumed that the application will be run on a machine running the Windows operating system in accordance with [section 2.4](#24-product-environment) of this document.
 
 ## 3. Interface Requirements
   ### 3.1 User Interface
 The application's user interface will be minimalistic, since we don't want to introduce visual clutter while the user is picking a color. Furthermore, UI design will not be a focus since the application is supposed to be a utility tool with minimal slowdowns for the user.
   ### 3.2 Hardware Interface
-The application, in its current state, will require a working keyboard and/or a device serving the same purpose. Additionally, the target system will have to meet the basic hardware requirements of the active Windows version. 
+The application, in its current state, will require a working keyboard and a pointer device (and/or devices of similar purpose). Additionally, the target system will have to meet the basic hardware requirements of the active Windows version. 
   ### 3.3 Software Interface
-The application will interact with the user32 Windows API and the WPF interace.
+The application will interact with the user32 Windows API and the WPF.
 
 ## 4. System properties
   ### 4.1 Color Picking
   #### 4.1.1 Description and Importance
-This feature is of vital importance since it is, in essence, the core of the application. This property enables the user to hover a pixel on the screen and convert it to the selected color format and afterwards copy it to the clipboard.
+This feature is of vital importance since it is, in essence, the core of the application. This property enables the user to hover over a pixel on the screen and convert it to the selected color format and afterwards copy it to the clipboard.
   #### 4.1.2 Inputs and Outputs
 The mouse position, keyboard hook, and display reference will be supplied, and, as a result, the color can be sampled. The sampled color will then go through a color formatter and be copied to the clipboard - the final output.
   #### 4.1.3 Function Specification
@@ -108,7 +107,7 @@ The window has to behave in accordance with the current application state and fo
   ### 5.1 Performance
 The application should use minimal system resources - especially in its inactive state. In its active state, the resource usage should also be minimal, however, due to the window being repositioned constantly and being redrawn due to the content updating, this may be difficult to achieve.
   ### 5.2 Security
-The application, in its current state, has no security risks{concerns since it onlz uses native API's, the WPF, and does not store nor access any potentially risky/vulnerable data.
+The application, in its current state, has no security risks/concerns since it only uses native API's, the WPF, and does not store nor access any potentially risky/vulnerable data.
   ### 5.3 Reliability
 The application has to work reliably without being a hassle to work with, it has to copy the hovered color accurately and should copy it to the clipboard every time without issue.
   ### 5.4 Project Documentation
