@@ -27,7 +27,7 @@ Table of Contents
 
 ## 1. Introduction  
   ### 1.1 Document Purpose
-  The purpose of this document is to present a description of the functions and interfaces of the application. Furthermore it will introduce commonly used concepts, interfaces and usecases, including a basic overview of the application's structure.
+  The purpose of this document is to present a description of the functions and interfaces of the final product. Furthermore, it will introduce and discuss commonly used concepts, interfaces and usecases, including a basic overview of the application's structure and inner workings.
   ### 1.2 Definitions, Acronyms and Abbreviations
 | Term | Definition    |
 | ---- | ------- |
@@ -44,11 +44,11 @@ The main use case of the product is fast color picking of colors in various form
   ### 2.2 Personas
 The products target audience mainly consists of programmers and other software developers (ie. graphics programmers, web developers, etc.), however the product offers utility to other groups aswell.
   ### 2.3 Details, Motivation and Live Examples
- This project was inspired by the PowerToys which already provides a native color picker for windows, this color picker, however, offers limited control over color formats while active (the user can only switch them after opening the complimentary PowerToys application), which can get tiresome after having to switch between color formats more often. This application aims to fix this issue by using additional global shortcuts that give the user the ability to switch color formats on the fly. 
+ This project was inspired by Microsoft's PowerToys which already provides a native color picker for windows, this color picker, however, offers limited control over color formats while being active (the user can only switch them after opening the complimentary PowerToys application), which can get tiresome after having to switch between color formats often. This application aims to fix this issue by using additional global shortcuts that give the user the ability to switch color formats on the fly. 
   ### 2.4 Product Scope
-Due to the limit timeframe the scale of this project is limited to just the bare essentials - that is a basic color picker that enables users to pick any color from their display at will. 
+Due to the limited timeframe the scale of this project is limited to just the bare essentials - that is, a basic color picker that enables users to pick any color from their display at will and automatically convert it to the desired format. 
   ### 2.5 Unimportant Functions and Properties
-The aforementioned scale of the project allows us to focus on every aspect of the application at a decently high level, as such, no functions or properties will be left ignored.
+The aforementioned scale of the project allows us to focus on every aspect of the application at a decently high level, as such, no functions or properties will be left ignored or unexplored. 
 
 ## 3. Architecture Overview
   ### 3.1 Work Flow
@@ -56,6 +56,6 @@ The aforementioned scale of the project allows us to focus on every aspect of th
   ### 3.2 Main Modules
   Due to the overall simplicity of the solution the application only consists of one module: the color picker itself. 
   ### 3.3 Details
-  The application will dynamically respond to display scale. Additionally the application will support both multiple, and single monitor configurations natively. 
+  The application will dynamically respond to display scale and DPI settings. Additionally the application will support both multiple, and single monitor configurations natively.
   ### 3.4 Possible Program Flows
-  The application has two main states: active and dormant. In its dormant state the application consumes minimal resources (target being < 0% on normal systems) and only listens to a predefined keyboard shortcut (default being <kbd>Shift</kbd> + <kbd>C</kbd>). If and when the shortcut gets triggered the application awakens and the color picker functionality is enabled, allowing the user to use sample display colors.
+  The application has two main states: active and dormant. In its dormant state the application consumes minimal resources (target being < 0% on normal systems) and only listens to a predefined keyboard shortcut (default being <kbd>Shift</kbd> + <kbd>C</kbd>). If, and when the shortcut gets triggered the application awakens and the color picker functionality is enabled, allowing the user to sample display colors.
