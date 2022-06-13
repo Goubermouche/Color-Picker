@@ -47,6 +47,11 @@ The products target audience mainly consists of programmers and other software d
  This project was inspired by Microsoft's PowerToys which already provides a native color picker for windows, this color picker, however, offers limited control over color formats while being active (the user can only switch them after opening the complimentary PowerToys application), which can get tiresome after having to switch between color formats often. This application aims to fix this issue by using additional global shortcuts that give the user the ability to switch color formats on the fly. 
   ### 2.4 Product Scope
 Due to the limited timeframe the scale of this project is limited to just the bare essentials - that is, a basic color picker that enables users to pick any color from their display at will and automatically convert it to the desired format. 
+
+<p align="center">
+  <img src="Example.png" />
+</p>
+
   ### 2.5 Unimportant Functions and Properties
 The aforementioned scale of the project allows us to focus on every aspect of the application at a decently high level, as such, no functions or properties will be left ignored or unexplored. 
 
